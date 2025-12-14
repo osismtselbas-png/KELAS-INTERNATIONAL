@@ -97,3 +97,47 @@ border-radius: 30px;
 .gallery img:hover {
   transform: scale(1.05);
 }
+.structure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.member {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-8px);
+}
+
+.member img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.member h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.member p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* wali kelas lebih dominan */
+.leader {
+  border: 3px solid #0077cc;
+}
+
+
